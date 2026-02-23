@@ -1,5 +1,5 @@
-output "display_ami_id" {
-    value = aws_instance.pradeep.ami
+output "display_private_Ip" {
+    value = aws_instance.pradeep.private_ip
   
 }
 
