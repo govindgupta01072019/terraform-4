@@ -1,4 +1,4 @@
-output "display_private_Ip" {
+output "display_private_IP" {
     value = aws_instance.pradeep.private_ip
   
 }
